@@ -1,6 +1,6 @@
 <?php
 # database connection
-$db = pg_connect('user=baishin password=baishin3 dbname=master');
+$db = pg_connect('host=34.146.46.87 user=baishin password=baishin38697 dbname=master');
 
 # authentication
 $password_hash = json_decode(file_get_contents(__DIR__ . '/password_hash.json'), TRUE);
